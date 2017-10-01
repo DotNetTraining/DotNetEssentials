@@ -48,6 +48,7 @@ namespace OOPCChapter1
 
         public static void Main(string[] args)
         {
+            PrimaryOperators.NullConditionalIndexAccess();
             Console.WriteLine(HELLO_WORLD);                              //You can call static methods from different classes by prefixing the class (Type) name with a dot (.) and then method name.
             bool getMore = true;
             while (getMore)                             //alternatively you can also write: while(getMore == true)
