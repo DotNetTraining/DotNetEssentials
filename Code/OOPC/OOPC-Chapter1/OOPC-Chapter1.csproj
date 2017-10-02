@@ -37,6 +37,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrimaryOperators.cs" />
+    <Compile Include="UnaryOperators.cs" />
+    <Compile Include="MultiplicativeOperators.cs" />
+    <Compile Include="AdditiveOperators.cs" />
+    <Compile Include="ShiftOperators.cs" />
+    <Compile Include="RelationalTypeOperators.cs" />
+    <Compile Include="EqualityOperators.cs" />
+    <Compile Include="LogicalConditionalAndNull.cs" />
+    <Compile Include="AssignmentAndAnonymous.cs" />
+    <Compile Include="OverloadingOperators.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
