@@ -36,6 +36,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BoxingUnboxing.cs" />
+    <Compile Include="ValueTypes.cs" />
+    <Compile Include="Arrays.cs" />
+    <Compile Include="Strings.cs" />
+    <Compile Include="Classes.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="Polymorphism.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
