@@ -43,6 +43,7 @@
     <Compile Include="Classes.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Polymorphism.cs" />
+    <Compile Include="Interfaces.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
