@@ -64,7 +64,14 @@ namespace OOPCChapter1
 
         public static void Associativity()
         {
-            
+            int a, b, c;
+            c = 1;
+            // The following two lines are equivalent.  
+            a = b = c;
+            a = (b = c);
+
+            // The following line, which forces left associativity, causes an error.  
+            //(a = b) = c;  
         }
     }
 }
